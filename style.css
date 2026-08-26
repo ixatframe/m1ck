@@ -1163,3 +1163,129 @@ footer span{opacity:.72}
     overflow-x:auto;
   }
 }
+
+/* OFFICIAL XAT ASSET ICONS */
+.xat-custom-icon{
+  background-size:contain!important;
+  background-position:center!important;
+  background-repeat:no-repeat!important;
+}
+.xat-packet-icon-buyxats{
+  background-image:url("https://xat.com/content/web/R00250/img/navbar/buyxats.svg")!important;
+}
+.xat-packet-icon-everypower{
+  background-image:url("https://xat.com/images/smw/everypower.png")!important;
+}
+.xat-packet-icon-ids{
+  background-image:url("https://xat.com/content/web/R00250/img/navbar/auctions.svg")!important;
+}
+
+/* Small round identifier markers in the IDS list */
+.id-dot{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:9px;
+  height:9px;
+  margin-right:8px;
+  border-radius:50%;
+  background:#1fb9ed;
+  box-shadow:0 0 0 3px rgba(31,185,237,.10),0 0 10px rgba(31,185,237,.18);
+  vertical-align:middle;
+  flex:0 0 9px;
+}
+.id-row{
+  display:flex;
+  align-items:center;
+}
+
+/* OFFICIAL XAT ICONS */
+.packet-icon-img{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  overflow:hidden!important;
+}
+.packet-icon-img img{
+  display:block!important;
+  width:31px!important;
+  height:31px!important;
+  max-width:31px!important;
+  max-height:31px!important;
+  object-fit:contain!important;
+}
+.packet-icon-img img[alt="Everypower"]{
+  width:34px!important;
+  height:34px!important;
+}
+.top-link-icon{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  overflow:hidden!important;
+}
+.top-link-icon img{
+  display:block!important;
+  width:22px!important;
+  height:22px!important;
+  object-fit:contain!important;
+}
+
+/* Fine ID marker: • 99000 */
+.id-dot{
+  display:none!important;
+}
+.id-bullet{
+  display:inline!important;
+  margin-right:6px!important;
+  color:#159ed7!important;
+  font-size:17px!important;
+  line-height:1!important;
+  font-weight:700!important;
+  vertical-align:1px!important;
+  text-shadow:0 0 8px rgba(21,158,215,.20)!important;
+}
+
+/* FINAL ID MARKER */
+.id-dot{
+  display:none!important;
+}
+.id-bullet{
+  display:inline-block!important;
+  width:auto!important;
+  height:auto!important;
+  margin:0 7px 0 0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:#16a9df!important;
+  font-size:13px!important;
+  line-height:1!important;
+  font-weight:700!important;
+  vertical-align:middle!important;
+}
+
+/* NAVIGATION SYMBOLS */
+.nav-symbol{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:30px!important;
+  height:30px!important;
+  margin:0 auto!important;
+  border:1px solid #d4e5ed!important;
+  border-radius:8px!important;
+  background:linear-gradient(180deg,#ffffff,#f4f9fb)!important;
+  color:#168fc5!important;
+  font-size:15px!important;
+  font-weight:700!important;
+  line-height:1!important;
+  box-shadow:0 5px 14px rgba(21,87,112,.06), inset 0 1px rgba(255,255,255,.95)!important;
+}
+.nav-symbol:hover{
+  border-color:#8dd9f5!important;
+  color:#08a8e4!important;
+  box-shadow:0 0 14px rgba(24,180,232,.16)!important;
+}
