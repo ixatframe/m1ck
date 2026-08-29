@@ -74,19 +74,20 @@
 
       <section id="latest" class="latest panel premium-panel">
         <div class="power-image">
-          <img src="https://xat.com/images/smw/selfcare.png" alt="Selfcare power">
+          <img id="latestPowerImage" src="https://xat.com/images/smw/selfcare.png" alt="Latest power">
         </div>
         <div class="latest-content">
-          <div class="section-title"><span>01</span><h3>Latest Power</h3><b>Limited</b></div>
+          <div class="section-title"><span>01</span><h3>Latest Power <i id="latestPowerName">Selfcare</i></h3><b id="latestPowerBadge">Limited</b></div>
           <p class="sub">Latest power available for trading</p>
           <div class="power-grid">
-            <div><strong>#750</strong><small>ID</small></div>
-            <div><strong>300 xats</strong><small>PRICE</small></div>
-            <div><strong>Limited</strong><small>STORE STATUS</small></div>
-            <div><strong>400 - 500</strong><small>XATS</small></div>
-            <div><strong>29 - 37</strong><small>DAYS</small></div>
+            <div><strong id="latestPowerId">#750</strong><small>ID</small></div>
+            <div><strong id="latestPowerPrice">300 xats</strong><small>PRICE</small></div>
+            <div><strong id="latestPowerStatus">Limited</strong><small>STORE STATUS</small></div>
+            <div><strong id="latestPowerXats">400 - 500</strong><small>XATS</small></div>
+            <div><strong id="latestPowerDays">29 - 37</strong><small>DAYS</small></div>
           </div>
-          <a class="info-btn" href="https://wiki.xat.com/Selfcare" target="_blank" rel="noopener">Information about the power →</a>
+          <a id="latestPowerLink" class="info-btn" href="https://illuxat.com/en/smiley/latestpower" target="_blank" rel="noopener">Latest power information →</a>
+          <span id="latestPowerUpdate" class="latest-update">Live data enabled</span>
         </div>
       </section>
 
@@ -188,5 +189,6 @@ links.forEach(a=>a.addEventListener('click',e=>e.preventDefault()));
 })();
 </script>
 
+<script src="latest-power.js"></script>
 </body>
 </html>

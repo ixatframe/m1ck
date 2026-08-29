@@ -1289,3 +1289,8 @@ footer span{opacity:.72}
   color:#08a8e4!important;
   box-shadow:0 0 14px rgba(24,180,232,.16)!important;
 }
+
+
+/* Automatic Latest Power */
+.latest-update{display:block;margin-top:8px;font-size:9px;letter-spacing:1px;text-transform:uppercase;opacity:.5}
+.section-title h3 i{font-style:normal}
